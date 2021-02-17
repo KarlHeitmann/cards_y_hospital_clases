@@ -29,6 +29,16 @@ class Hospital
   end
 end
 
+frutas = [
+  'manzana',
+  'banana',
+]
+
+hospitales = [
+  Hospital.new('San Jose', 100),
+  Hospital.new('Van Buren', 100),
+]
+
 hospital_san_jose = Hospital.new 'San Jose', 100
 # EQUIVALENTE
 # hospital_san_jose = Hospital.new('San Jose', 100)
